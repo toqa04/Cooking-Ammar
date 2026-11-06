@@ -1,0 +1,698 @@
+
+{
+  "brand": {
+    "name": "Cooking Ammar"
+  },
+  "hero": {
+    "images": [
+      "https://loremflickr.com/800/800/healthy,bowl?lock=90",
+      "https://loremflickr.com/800/800/fresh,salad?lock=91",
+      "https://loremflickr.com/800/800/smoothie,bowl?lock=92"
+    ]
+  },
+  "gallery": [
+    "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=85",
+    "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=85",
+    "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=800&q=85",
+    "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=85",
+    "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=800&q=85",
+    "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=800&q=85"
+  ],
+  "categories": [
+    {
+      "id": "puddings",
+      "name": {
+        "en": "Puddings",
+        "ar": "بودينج"
+      }
+    },
+    {
+      "id": "juices",
+      "name": {
+        "en": "Juices",
+        "ar": "عصائر"
+      }
+    },
+    {
+      "id": "chicken",
+      "name": {
+        "en": "Chicken",
+        "ar": "دجاج"
+      }
+    },
+    {
+      "id": "salads",
+      "name": {
+        "en": "Salads",
+        "ar": "سلطات"
+      }
+    },
+    {
+      "id": "snacks",
+      "name": {
+        "en": "Healthy Snacks",
+        "ar": "سناكات صحية"
+      }
+    }
+  ],
+  "products": [
+    {
+      "id": "pu-1",
+      "category": "puddings",
+      "image": "https://loremflickr.com/800/800/chia,pudding?lock=1",
+      "price": 3.5,
+      "name": {
+        "en": "Berry Chia Pudding",
+        "ar": "بودينج الشيا بالتوت"
+      }
+
+      }
+    ,
+    {
+      "id": "pu-2",
+      "category": "puddings",
+      "image": "https://loremflickr.com/800/800/chocolate,oatmeal?lock=2",
+      "price": 3.5,
+      "name": {
+        "en": "Chocolate Oat Pudding",
+        "ar": "بودينج الشوفان بالشوكولاتة"
+      },
+      "ingredients": {
+        "en": [
+          "Rolled oats",
+          "Dark cocoa",
+          "Oat milk",
+          "Dates",
+          "Blueberries"
+        ],
+        "ar": [
+          "شوفان",
+          "كاكاو داكن",
+          "حليب الشوفان",
+          "تمر",
+          "توت أزرق"
+        ]
+      },
+      "nutrition": {
+        "cal": 320,
+        "protein": 11,
+        "carbs": 46,
+        "fat": 10
+      }
+    },
+    {
+      "id": "pu-3",
+      "category": "puddings",
+      "image": "https://loremflickr.com/800/800/mango,pudding?lock=3",
+      "price": 3.75,
+      "name": {
+        "en": "Mango Coconut Pudding",
+        "ar": "بودينج المانجو وجوز الهند"
+      },
+      "ingredients": {
+        "en": [
+          "Chia seeds",
+          "Coconut milk",
+          "Fresh mango",
+          "Toasted coconut",
+          "Lime zest"
+        ],
+        "ar": [
+          "بذور الشيا",
+          "حليب جوز الهند",
+          "مانجو طازجة",
+          "جوز هند محمّص",
+          "قشر الليمون"
+        ]
+      },
+      "nutrition": {
+        "cal": 300,
+        "protein": 7,
+        "carbs": 36,
+        "fat": 15
+      }
+    },
+    {
+      "id": "pu-4",
+      "category": "puddings",
+      "image": "https://loremflickr.com/800/800/dates,yogurt?lock=4",
+      "price": 3.25,
+      "name": {
+        "en": "Date & Tahini Pudding",
+        "ar": "بودينج التمر والطحينة"
+      },
+      "ingredients": {
+        "en": [
+          "Dates",
+          "Tahini",
+          "Greek yogurt",
+          "Pistachio",
+          "Cinnamon"
+        ],
+        "ar": [
+          "تمر",
+          "طحينة",
+          "زبادي يوناني",
+          "فستق حلبي",
+          "قرفة"
+        ]
+      },
+      "nutrition": {
+        "cal": 310,
+        "protein": 15,
+        "carbs": 32,
+        "fat": 14
+      }
+    },
+    {
+      "id": "ju-1",
+      "category": "juices",
+      "image": "https://loremflickr.com/800/800/green,juice?lock=5",
+      "price": 2.75,
+      "name": {
+        "en": "Green Detox",
+        "ar": "ديتوكس أخضر"
+      },
+      "ingredients": {
+        "en": [
+          "Spinach",
+          "Cucumber",
+          "Green apple",
+          "Ginger",
+          "Lemon"
+        ],
+        "ar": [
+          "سبانخ",
+          "خيار",
+          "تفاح أخضر",
+          "زنجبيل",
+          "ليمون"
+        ]
+      },
+      "nutrition": {
+        "cal": 95,
+        "protein": 3,
+        "carbs": 20,
+        "fat": 1
+      }
+    },
+    {
+      "id": "ju-2",
+      "category": "juices",
+      "image": "https://loremflickr.com/800/800/orange,juice?lock=6",
+      "price": 2.75,
+      "name": {
+        "en": "Orange Carrot Ginger",
+        "ar": "برتقال وجزر وزنجبيل"
+      },
+      "ingredients": {
+        "en": [
+          "Orange",
+          "Carrot",
+          "Ginger",
+          "Turmeric"
+        ],
+        "ar": [
+          "برتقال",
+          "جزر",
+          "زنجبيل",
+          "كركم"
+        ]
+      },
+      "nutrition": {
+        "cal": 120,
+        "protein": 2,
+        "carbs": 28,
+        "fat": 1
+      }
+    },
+    {
+      "id": "ju-3",
+      "category": "juices",
+      "image": "https://loremflickr.com/800/800/beetroot,juice?lock=7",
+      "price": 3.0,
+      "name": {
+        "en": "Beetroot Apple",
+        "ar": "شمندر وتفاح"
+      },
+      "ingredients": {
+        "en": [
+          "Beetroot",
+          "Red apple",
+          "Lemon",
+          "Mint"
+        ],
+        "ar": [
+          "شمندر",
+          "تفاح أحمر",
+          "ليمون",
+          "نعناع"
+        ]
+      },
+      "nutrition": {
+        "cal": 110,
+        "protein": 2,
+        "carbs": 26,
+        "fat": 0
+      }
+    },
+    {
+      "id": "ju-4",
+      "category": "juices",
+      "image": "https://loremflickr.com/800/800/strawberry,smoothie?lock=8",
+      "price": 3.25,
+      "name": {
+        "en": "Strawberry Banana Smoothie",
+        "ar": "سموذي الفراولة والموز"
+      },
+      "ingredients": {
+        "en": [
+          "Strawberries",
+          "Banana",
+          "Oat milk",
+          "Greek yogurt"
+        ],
+        "ar": [
+          "فراولة",
+          "موز",
+          "حليب الشوفان",
+          "زبادي يوناني"
+        ]
+      },
+      "nutrition": {
+        "cal": 190,
+        "protein": 8,
+        "carbs": 34,
+        "fat": 3
+      }
+    },
+    {
+      "id": "ch-1",
+      "category": "chicken",
+      "image": "https://loremflickr.com/800/800/grilled,chicken?lock=9",
+      "price": 7.0,
+      "name": {
+        "en": "Herb Grilled Chicken Bowl",
+        "ar": "وعاء الدجاج المشوي بالأعشاب"
+      },
+      "ingredients": {
+        "en": [
+          "Grilled chicken breast",
+          "Brown rice",
+          "Roasted vegetables",
+          "Herb dressing"
+        ],
+        "ar": [
+          "صدر دجاج مشوي",
+          "أرز بني",
+          "خضار مشوية",
+          "صلصة الأعشاب"
+        ]
+      },
+      "nutrition": {
+        "cal": 560,
+        "protein": 48,
+        "carbs": 52,
+        "fat": 16
+      }
+    },
+    {
+      "id": "ch-2",
+      "category": "chicken",
+      "image": "https://loremflickr.com/800/800/teriyaki,chicken?lock=10",
+      "price": 7.5,
+      "name": {
+        "en": "Teriyaki Chicken Glow Bowl",
+        "ar": "وعاء الدجاج بصلصة التيرياكي"
+      },
+      "ingredients": {
+        "en": [
+          "Chicken thigh",
+          "Steamed vegetables",
+          "Brown rice",
+          "House date teriyaki",
+          "Sesame"
+        ],
+        "ar": [
+          "فخذ دجاج",
+          "خضار مطهوة على البخار",
+          "أرز بني",
+          "تيرياكي بالتمر",
+          "سمسم"
+        ]
+      },
+      "nutrition": {
+        "cal": 640,
+        "protein": 46,
+        "carbs": 68,
+        "fat": 20
+      }
+    },
+    {
+      "id": "ch-3",
+      "category": "chicken",
+      "image": "https://loremflickr.com/800/800/lemon,chicken?lock=11",
+      "price": 7.25,
+      "name": {
+        "en": "Lemon Garlic Chicken & Quinoa",
+        "ar": "دجاج بالليمون والثوم مع الكينوا"
+      },
+      "ingredients": {
+        "en": [
+          "Chicken breast",
+          "Quinoa",
+          "Lemon",
+          "Garlic",
+          "Zucchini"
+        ],
+        "ar": [
+          "صدر دجاج",
+          "كينوا",
+          "ليمون",
+          "ثوم",
+          "كوسا"
+        ]
+      },
+      "nutrition": {
+        "cal": 520,
+        "protein": 50,
+        "carbs": 40,
+        "fat": 14
+      }
+    },
+    {
+      "id": "ch-4",
+      "category": "chicken",
+      "image": "https://loremflickr.com/800/800/pesto,chicken?lock=12",
+      "price": 7.0,
+      "name": {
+        "en": "Pesto Chicken & Brown Rice",
+        "ar": "دجاج بالبيستو مع الأرز البني"
+      },
+      "ingredients": {
+        "en": [
+          "Chicken breast",
+          "Basil pesto",
+          "Brown rice",
+          "Cherry tomato",
+          "Spring greens"
+        ],
+        "ar": [
+          "صدر دجاج",
+          "بيستو الريحان",
+          "أرز بني",
+          "طماطم كرزية",
+          "خضار ورقية"
+        ]
+      },
+      "nutrition": {
+        "cal": 590,
+        "protein": 47,
+        "carbs": 48,
+        "fat": 19
+      }
+    },
+    {
+      "id": "sa-1",
+      "category": "salads",
+      "image": "https://loremflickr.com/800/800/kale,salad?lock=13",
+      "price": 5.5,
+      "name": {
+        "en": "Superfood Kale & Quinoa Salad",
+        "ar": "سلطة الكيل والكينوا"
+      },
+      "ingredients": {
+        "en": [
+          "Kale",
+          "Quinoa",
+          "Blueberries",
+          "Chickpeas",
+          "Lemon tahini"
+        ],
+        "ar": [
+          "كيل",
+          "كينوا",
+          "توت أزرق",
+          "حمص",
+          "صلصة الليمون والطحينة"
+        ]
+      },
+      "nutrition": {
+        "cal": 380,
+        "protein": 14,
+        "carbs": 46,
+        "fat": 16
+      }
+    },
+    {
+      "id": "sa-2",
+      "category": "salads",
+      "image": "https://loremflickr.com/800/800/greek,salad?lock=14",
+      "price": 5.0,
+      "name": {
+        "en": "Greek Garden Salad",
+        "ar": "السلطة اليونانية"
+      },
+      "ingredients": {
+        "en": [
+          "Cucumber",
+          "Tomato",
+          "Olives",
+          "Feta",
+          "Oregano"
+        ],
+        "ar": [
+          "خيار",
+          "بندورة",
+          "زيتون",
+          "جبنة فيتا",
+          "زعتر بري"
+        ]
+      },
+      "nutrition": {
+        "cal": 310,
+        "protein": 11,
+        "carbs": 18,
+        "fat": 22
+      }
+    },
+    {
+      "id": "sa-3",
+      "category": "salads",
+      "image": "https://loremflickr.com/800/800/roasted,vegetables?lock=15",
+      "price": 5.75,
+      "name": {
+        "en": "Roasted Vegetable Salad",
+        "ar": "سلطة الخضار المشوية"
+      },
+      "ingredients": {
+        "en": [
+          "Sweet potato",
+          "Beetroot",
+          "Rocket",
+          "Pumpkin seeds",
+          "Balsamic"
+        ],
+        "ar": [
+          "بطاطا حلوة",
+          "شمندر",
+          "جرجير",
+          "بذور القرع",
+          "خل بلسمي"
+        ]
+      },
+      "nutrition": {
+        "cal": 360,
+        "protein": 9,
+        "carbs": 48,
+        "fat": 15
+      }
+    },
+    {
+      "id": "sn-1",
+      "category": "snacks",
+      "image": "https://loremflickr.com/800/800/energy,balls?lock=16",
+      "price": 2.5,
+      "name": {
+        "en": "Date & Almond Energy Balls",
+        "ar": "كرات التمر واللوز"
+      },
+      "ingredients": {
+        "en": [
+          "Dates",
+          "Almonds",
+          "Cocoa",
+          "Coconut"
+        ],
+        "ar": [
+          "تمر",
+          "لوز",
+          "كاكاو",
+          "جوز هند"
+        ]
+      },
+      "nutrition": {
+        "cal": 240,
+        "protein": 6,
+        "carbs": 32,
+        "fat": 11
+      }
+    },
+    {
+      "id": "sn-2",
+      "category": "snacks",
+      "image": "https://loremflickr.com/800/800/granola,yogurt?lock=17",
+      "price": 3.0,
+      "name": {
+        "en": "Protein Granola Cup",
+        "ar": "كوب الجرانولا بالبروتين"
+      },
+      "ingredients": {
+        "en": [
+          "Oat granola",
+          "Greek yogurt",
+          "Honey",
+          "Seasonal fruit"
+        ],
+        "ar": [
+          "جرانولا الشوفان",
+          "زبادي يوناني",
+          "عسل",
+          "فواكه موسمية"
+        ]
+      },
+      "nutrition": {
+        "cal": 290,
+        "protein": 16,
+        "carbs": 36,
+        "fat": 9
+      }
+    },
+    {
+      "id": "sn-3",
+      "category": "snacks",
+      "image": "https://loremflickr.com/800/800/falafel?lock=18",
+      "price": 3.25,
+      "name": {
+        "en": "Baked Falafel Bites",
+        "ar": "فلافل مخبوزة"
+      },
+      "ingredients": {
+        "en": [
+          "Chickpeas",
+          "Parsley",
+          "Coriander",
+          "Garlic",
+          "Tahini dip"
+        ],
+        "ar": [
+          "حمص",
+          "بقدونس",
+          "كزبرة",
+          "ثوم",
+          "غمّوس الطحينة"
+        ]
+      },
+      "nutrition": {
+        "cal": 260,
+        "protein": 12,
+        "carbs": 30,
+        "fat": 10
+      }
+    }
+  ],
+  "subscriptions": [
+    {
+      "id": "sub-1",
+      "image": "https://loremflickr.com/800/800/healthy,meal,prep?lock=50",
+      "price": 30,
+      "period": "week",
+      "name": {
+        "en": "Weekly Plan",
+        "ar": "الاشتراك الأسبوعي"
+      },
+      "summary": {
+        "en": "5 lunches, one every working day.",
+        "ar": "5 وجبات غداء، وجبة لكل يوم عمل."
+      },
+      "details": {
+        "en": [
+          "5 chef-picked lunches, Sunday to Thursday",
+          "Choose between chicken, salad or bowl each day",
+          "1 free juice or pudding with the plan",
+          "Delivered fresh each morning",
+          "Pause or skip any week"
+        ],
+        "ar": [
+          "5 وجبات غداء من اختيار الشيف، من الأحد إلى الخميس",
+          "اختر كل يوم بين الدجاج أو السلطة أو الوعاء",
+          "عصير أو بودينج مجاني مع الاشتراك",
+          "توصيل طازج كل صباح",
+          "إمكانية الإيقاف أو تخطي أي أسبوع"
+        ]
+      }
+    },
+    {
+      "id": "sub-2",
+      "image": "https://loremflickr.com/800/800/healthy,meal,prep?lock=51",
+      "price": 110,
+      "period": "month",
+      "name": {
+        "en": "Monthly Balanced Plan",
+        "ar": "الاشتراك الشهري المتوازن"
+      },
+      "summary": {
+        "en": "20 meals with a balanced weekly rotation.",
+        "ar": "20 وجبة بتنويع أسبوعي متوازن."
+      },
+      "details": {
+        "en": [
+          "20 meals across the month",
+          "Balanced rotation of protein, salads and bowls",
+          "4 juices or puddings included",
+          "Calorie and macro details for every meal",
+          "Free delivery",
+          "Swap any meal up to the evening before"
+        ],
+        "ar": [
+          "20 وجبة على مدار الشهر",
+          "تنويع متوازن بين البروتين والسلطات والأوعية",
+          "4 عصائر أو بودينج مشمولة",
+          "تفاصيل السعرات والعناصر الغذائية لكل وجبة",
+          "توصيل مجاني",
+          "تبديل أي وجبة حتى مساء اليوم السابق"
+        ]
+      }
+    },
+    {
+      "id": "sub-3",
+      "image": "https://loremflickr.com/800/800/healthy,meal,prep?lock=52",
+      "price": 135,
+      "period": "month",
+      "name": {
+        "en": "Fit Pro Plan",
+        "ar": "اشتراك فِت برو"
+      },
+      "summary": {
+        "en": "High-protein meals built around your training.",
+        "ar": "وجبات عالية البروتين مصممة حول تمرينك."
+      },
+      "details": {
+        "en": [
+          "26 high-protein meals per month",
+          "40g+ protein in every main meal",
+          "Daily snack: energy balls or protein granola cup",
+          "Monthly check-in to adjust portions",
+          "Free delivery"
+        ],
+        "ar": [
+          "26 وجبة عالية البروتين شهريًا",
+          "أكثر من 40 غرام بروتين في كل وجبة رئيسية",
+          "سناك يومي: كرات الطاقة أو كوب الجرانولا بالبروتين",
+          "متابعة شهرية لتعديل الكميات",
+          "توصيل مجاني"
+        ]
+      }
+    }
+  ]
+}

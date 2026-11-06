@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --color-paper: #fafaf7;
+  --color-surface: #f0f1ea;
+  --color-line: #e2e5db;
+  --color-ink: #0e1512;
+  --color-muted: #5b665f;
+  --color-leaf: #13794a;
+  --color-leaf-deep: #0a3d27;
+  --color-mint: #d8f3e2;
+  --font-sans: "Bricolage Grotesque", "Readex Pro", ui-sans-serif, system-ui, sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+body { background: var(--color-paper); color: var(--color-ink); font-family: var(--font-sans); -webkit-font-smoothing: antialiased; }
+::selection { background: var(--color-leaf); color: #fff; }
+:focus-visible { outline: 2px solid var(--color-leaf); outline-offset: 3px; border-radius: 8px; }
+.on-dark :focus-visible { outline-color: var(--color-mint); }
+
+/* Arabic letters must stay joined: no letter-spacing. English brand keeps its tight tracking. */
+html[lang="ar"] * { letter-spacing: 0 !important; }
+html[lang="ar"] .tight { letter-spacing: -0.045em !important; }
+
+.no-scrollbar { scrollbar-width: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+
+.category-marquee { overflow: hidden; }
+.category-marquee__track {
+  display: flex;
+  width: max-content;
+  gap: 1rem;
+  animation: category-scroll 32s linear infinite;
+}
+.category-marquee:hover .category-marquee__track,
+.category-marquee:focus-within .category-marquee__track { animation-play-state: paused; }
+@keyframes category-scroll { to { transform: translateX(-50%); } }
+
+@keyframes rise { from { opacity: 0; transform: translateY(36px); } to { opacity: 1; transform: none; } }
+.rise { animation: rise .9s cubic-bezier(.2,.7,.2,1) both; animation-delay: var(--d, 0s); }
+@keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes pop { from { opacity: 0; transform: translateY(24px) scale(.98); } to { opacity: 1; transform: none; } }
+.fade { animation: fade .2s ease-out both; }
+.pop { animation: pop .3s cubic-bezier(.2,.7,.2,1) both; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .rise, .fade, .pop { animation: none; }
+  .category-marquee__track { animation: none; }
+  * { transition-duration: .01ms !important; }
+}

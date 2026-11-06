@@ -1,0 +1,119 @@
+import { useMemo, useState } from 'react'
+import { useLang } from '../i18n'
+import data from '../data/menu.json'
+import ProductCard from './ProductCard'
+import SubscriptionCard from './SubscriptionCard'
+import { SearchIcon, CloseIcon } from './icons'
+
+const norm = (s) => s.toLowerCase().trim()
+const haystack = (item) =>
+  norm([
+    item.name.en, item.name.ar,
+    ...(item.ingredients?.en || []), ...(item.ingredients?.ar || []),
+    ...(item.details?.en || []), ...(item.details?.ar || []),
+  ].join(' '))
+
+export default function Menu({ cat, setCat, onOpen }) {
+  const { t, tx } = useLang()
+  const [query, setQuery] = useState('')
+
+  const categoryGroups = useMemo(
+    () => data.categories.map((category) => ({
+      id: category.id,
+      title: tx(category.name),
+      type: 'meal',
+      items: data.products.filter((product) => product.category === category.id),
+    })),
+    [tx],
+  )
+
+  const tabs = useMemo(() => [
+    { id: 'all', label: t('all') },
+    ...categoryGroups.map(({ id, title }) => ({ id, label: title })),
+    ...(data.subscriptions.length ? [{ id: 'subscriptions', label: t('subscriptions') }] : []),
+  ], [categoryGroups, t])
+
+  const groups = useMemo(() => {
+    const q = norm(query)
+    const match = (i) => !q || haystack(i).includes(q)
+    const all = [
+      ...categoryGroups.map((group) => ({ ...group, items: group.items.filter(match) })),
+      ...(data.subscriptions.length
+        ? [{ id: 'subscriptions', title: t('subscriptions'), type: 'subscription', items: data.subscriptions.filter(match) }]
+        : []),
+    ]
+    return all.filter((g) => (cat === 'all' || g.id === cat) && g.items.length > 0)
+  }, [cat, categoryGroups, query, t])
+
+  return (
+    <section id="menu" className="scroll-mt-16">
+      <div className="mx-auto max-w-7xl px-4 pt-16 sm:px-6">
+        <h2 className="text-4xl font-extrabold tracking-tight sm:text-5xl">{t('menuTitle')}</h2>
+        <p className="mt-3 max-w-xl text-muted">{t('menuSub')}</p>
+      </div>
+
+      <div className="sticky top-16 z-20 mt-8 border-b border-line/70 bg-paper/90 backdrop-blur">
+        <div className="mx-auto flex max-w-7xl flex-col gap-3 px-4 py-3 sm:px-6 lg:flex-row lg:items-center lg:justify-between">
+          <nav aria-label={t('menuTitle')} className="no-scrollbar -mx-4 flex gap-2 overflow-x-auto px-4 sm:mx-0 sm:px-0">
+            {tabs.map((tab) => (
+              <button
+                key={tab.id}
+                onClick={() => setCat(tab.id)}
+                aria-pressed={cat === tab.id}
+                className={`shrink-0 rounded-full px-4 py-2 text-sm font-semibold transition ${
+                  cat === tab.id ? 'bg-ink text-paper' : 'bg-surface text-ink hover:bg-line'
+                }`}
+              >
+                {tab.label}
+              </button>
+            ))}
+          </nav>
+          <label className="relative block w-full lg:w-80">
+            <span className="sr-only">{t('searchPlaceholder')}</span>
+            <SearchIcon className="pointer-events-none absolute start-4 top-1/2 -translate-y-1/2 text-muted" width={18} height={18} />
+            <input
+              type="search"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder={t('searchPlaceholder')}
+              className="w-full rounded-full border border-line bg-white py-2.5 ps-11 pe-10 text-sm outline-none transition placeholder:text-muted focus:border-leaf"
+            />
+            {query && (
+              <button type="button" onClick={() => setQuery('')} aria-label={t('clearSearch')} className="absolute end-3 top-1/2 -translate-y-1/2 text-muted hover:text-ink">
+                <CloseIcon width={16} height={16} />
+              </button>
+            )}
+          </label>
+        </div>
+      </div>
+
+      <div className="mx-auto max-w-7xl space-y-14 px-4 py-10 sm:px-6">
+        {groups.map((g) => (
+          <div key={g.id}>
+            <div className="mb-5 flex items-baseline gap-3">
+              <h3 className="text-2xl font-extrabold">{g.title}</h3>
+              <span className="text-sm text-muted">{g.items.length} {t('items')}</span>
+            </div>
+            <div className="grid grid-cols-1 gap-x-5 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+              {g.items.map((item) =>
+                g.type === 'meal'
+                  ? <ProductCard key={item.id} item={item} onOpen={onOpen} />
+                  : <SubscriptionCard key={item.id} item={item} onOpen={onOpen} />,
+              )}
+            </div>
+          </div>
+        ))}
+
+        {groups.length === 0 && (
+          <div className="mx-auto max-w-md py-16 text-center">
+            <h3 className="text-xl font-bold">{t('noResultsTitle')}</h3>
+            <p className="mt-2 text-muted">{t('noResultsText')}</p>
+            <button onClick={() => setQuery('')} className="mt-5 rounded-full bg-ink px-5 py-2.5 text-sm font-semibold text-paper hover:bg-leaf-deep">
+              {t('clearSearch')}
+            </button>
+          </div>
+        )}
+      </div>
+    </section>
+  )
+}
