@@ -5,7 +5,7 @@ import data from '../data/menu.json'
 export default function Footer() {
   const { t, tx } = useLang()
   const links = [
-    config.whatsapp && { href: `https://wa.me/${config.whatsapp}`, label: 'WhatsApp' },
+    config.whatsapp && { href: `https://chat.whatsapp.com/JoHJue06WPzI4QqJe0yubd?mode=gi_t`, label: 'WhatsApp' },
     config.instagram && { href: `https://instagram.com/${config.instagram}`, label: 'Instagram' },
   ].filter(Boolean)
   return (
