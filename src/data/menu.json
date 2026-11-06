@@ -5,600 +5,378 @@
   },
   "hero": {
     "images": [
-      "https://loremflickr.com/800/800/healthy,bowl?lock=90",
-      "https://loremflickr.com/800/800/fresh,salad?lock=91",
-      "https://loremflickr.com/800/800/smoothie,bowl?lock=92"
+       "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794000814/0f7666c3-1b42-4993-b1bd-b2d47a462217.jpg",
+      "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794000814/932e83d3-951e-4727-9641-c0b68895b36c.jpg",
+      "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794000815/0e16bdcf-0f85-42d7-a7dd-531fecb2dc44.jpg"
+     
     ]
   },
   "gallery": [
-    "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=85",
-    "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=85",
-    "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=800&q=85",
-    "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=85",
-    "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=800&q=85",
-    "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=800&q=85"
+    "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794000809/71c604f6-3315-46b1-a567-35ef3a883dc5.jpg",
+    "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794000815/0d9eb8fa-8e00-4ff2-ba81-2a39b1da5af3.jpg",
+    "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794000815/addab233-bd07-4db8-af3a-597eabf43d51.jpg",
+    "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794000813/4901fd9b-59ae-4359-865c-4ce4d9e9ca6f.jpg",
+    "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794000815/d9b724db-df82-4402-82e7-8d31ada284cd.jpg",
+    "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794000815/0e16bdcf-0f85-42d7-a7dd-531fecb2dc44.jpg"
   ],
   "categories": [
-    {
-      "id": "puddings",
-      "name": {
-        "en": "Puddings",
-        "ar": "بودينج"
-      }
-    },
-    {
-      "id": "juices",
-      "name": {
-        "en": "Juices",
-        "ar": "عصائر"
-      }
-    },
-    {
-      "id": "chicken",
-      "name": {
-        "en": "Chicken",
-        "ar": "دجاج"
-      }
-    },
-    {
-      "id": "salads",
-      "name": {
-        "en": "Salads",
-        "ar": "سلطات"
-      }
-    },
-    {
-      "id": "snacks",
-      "name": {
-        "en": "Healthy Snacks",
-        "ar": "سناكات صحية"
-      }
+  {
+    "id": "puddings",
+    "name": {
+      "en": "Puddings",
+      "ar": "بودينج"
     }
-  ],
+  },
+  {
+    "id": "juices",
+    "name": {
+      "en": "Juices",
+      "ar": "عصائر"
+    }
+  },
+  {
+    "id": "chicken",
+    "name": {
+      "en": "Chicken",
+      "ar": "دجاج"
+    }
+  },
+  {
+    "id": "salads",
+    "name": {
+      "en": "Salads",
+      "ar": "سلطات"
+    }
+  },
+  {
+    "id": "snacks",
+    "name": {
+      "en": "Healthy Snacks",
+      "ar": "سناكات صحية"
+    }
+  },
+  {
+    "id": "pasta",
+    "name": {
+      "en": "Pasta",
+      "ar": "معكرونة"
+    }
+  },
+  {
+    "id": "meals",
+    "name": {
+      "en": "Main Meals",
+      "ar": "وجبات رئيسية"
+    }
+  },
+  {
+    "id": "steaks",
+    "name": {
+      "en": "Steaks",
+      "ar": "ستيك"
+    }
+  },
+  {
+    "id": "desserts",
+    "name": {
+      "en": "Desserts",
+      "ar": "حلويات"
+    }
+  }
+],
   "products": [
     {
-      "id": "pu-1",
+      "id": 1,
       "category": "puddings",
-      "image": "https://loremflickr.com/800/800/chia,pudding?lock=1",
-      "price": 3.5,
       "name": {
-        "en": "Berry Chia Pudding",
-        "ar": "بودينج الشيا بالتوت"
-      }
-
-      }
-    ,
-    {
-      "id": "pu-2",
-      "category": "puddings",
-      "image": "https://loremflickr.com/800/800/chocolate,oatmeal?lock=2",
-      "price": 3.5,
-      "name": {
-        "en": "Chocolate Oat Pudding",
-        "ar": "بودينج الشوفان بالشوكولاتة"
+        "ar": "بودينغ المانجو",
+        "en": "Mango Pudding"
       },
-      "ingredients": {
-        "en": [
-          "Rolled oats",
-          "Dark cocoa",
-          "Oat milk",
-          "Dates",
-          "Blueberries"
-        ],
-        "ar": [
-          "شوفان",
-          "كاكاو داكن",
-          "حليب الشوفان",
-          "تمر",
-          "توت أزرق"
-        ]
-      },
-      "nutrition": {
-        "cal": 320,
-        "protein": 11,
-        "carbs": 46,
-        "fat": 10
-      }
-    },
-    {
-      "id": "pu-3",
-      "category": "puddings",
-      "image": "https://loremflickr.com/800/800/mango,pudding?lock=3",
-      "price": 3.75,
-      "name": {
-        "en": "Mango Coconut Pudding",
-        "ar": "بودينج المانجو وجوز الهند"
-      },
-      "ingredients": {
-        "en": [
-          "Chia seeds",
-          "Coconut milk",
-          "Fresh mango",
-          "Toasted coconut",
-          "Lime zest"
-        ],
-        "ar": [
-          "بذور الشيا",
-          "حليب جوز الهند",
-          "مانجو طازجة",
-          "جوز هند محمّص",
-          "قشر الليمون"
-        ]
-      },
-      "nutrition": {
-        "cal": 300,
-        "protein": 7,
-        "carbs": 36,
-        "fat": 15
-      }
-    },
-    {
-      "id": "pu-4",
-      "category": "puddings",
-      "image": "https://loremflickr.com/800/800/dates,yogurt?lock=4",
-      "price": 3.25,
-      "name": {
-        "en": "Date & Tahini Pudding",
-        "ar": "بودينج التمر والطحينة"
-      },
-      "ingredients": {
-        "en": [
-          "Dates",
-          "Tahini",
-          "Greek yogurt",
-          "Pistachio",
-          "Cinnamon"
-        ],
-        "ar": [
-          "تمر",
-          "طحينة",
-          "زبادي يوناني",
-          "فستق حلبي",
-          "قرفة"
-        ]
-      },
-      "nutrition": {
-        "cal": 310,
-        "protein": 15,
-        "carbs": 32,
-        "fat": 14
-      }
-    },
-    {
-      "id": "ju-1",
-      "category": "juices",
-      "image": "https://loremflickr.com/800/800/green,juice?lock=5",
-      "price": 2.75,
-      "name": {
-        "en": "Green Detox",
-        "ar": "ديتوكس أخضر"
-      },
-      "ingredients": {
-        "en": [
-          "Spinach",
-          "Cucumber",
-          "Green apple",
-          "Ginger",
-          "Lemon"
-        ],
-        "ar": [
-          "سبانخ",
-          "خيار",
-          "تفاح أخضر",
-          "زنجبيل",
-          "ليمون"
-        ]
-      },
-      "nutrition": {
-        "cal": 95,
-        "protein": 3,
-        "carbs": 20,
-        "fat": 1
-      }
-    },
-    {
-      "id": "ju-2",
-      "category": "juices",
-      "image": "https://loremflickr.com/800/800/orange,juice?lock=6",
-      "price": 2.75,
-      "name": {
-        "en": "Orange Carrot Ginger",
-        "ar": "برتقال وجزر وزنجبيل"
-      },
-      "ingredients": {
-        "en": [
-          "Orange",
-          "Carrot",
-          "Ginger",
-          "Turmeric"
-        ],
-        "ar": [
-          "برتقال",
-          "جزر",
-          "زنجبيل",
-          "كركم"
-        ]
-      },
-      "nutrition": {
-        "cal": 120,
-        "protein": 2,
-        "carbs": 28,
-        "fat": 1
-      }
-    },
-    {
-      "id": "ju-3",
-      "category": "juices",
-      "image": "https://loremflickr.com/800/800/beetroot,juice?lock=7",
-      "price": 3.0,
-      "name": {
-        "en": "Beetroot Apple",
-        "ar": "شمندر وتفاح"
-      },
-      "ingredients": {
-        "en": [
-          "Beetroot",
-          "Red apple",
-          "Lemon",
-          "Mint"
-        ],
-        "ar": [
-          "شمندر",
-          "تفاح أحمر",
-          "ليمون",
-          "نعناع"
-        ]
-      },
-      "nutrition": {
-        "cal": 110,
-        "protein": 2,
-        "carbs": 26,
-        "fat": 0
-      }
-    },
-    {
-      "id": "ju-4",
-      "category": "juices",
-      "image": "https://loremflickr.com/800/800/strawberry,smoothie?lock=8",
-      "price": 3.25,
-      "name": {
-        "en": "Strawberry Banana Smoothie",
-        "ar": "سموذي الفراولة والموز"
-      },
-      "ingredients": {
-        "en": [
-          "Strawberries",
-          "Banana",
-          "Oat milk",
-          "Greek yogurt"
-        ],
-        "ar": [
-          "فراولة",
-          "موز",
-          "حليب الشوفان",
-          "زبادي يوناني"
-        ]
-      },
-      "nutrition": {
-        "cal": 190,
-        "protein": 8,
-        "carbs": 34,
-        "fat": 3
-      }
-    },
-    {
-      "id": "ch-1",
-      "category": "chicken",
-      "image": "https://loremflickr.com/800/800/grilled,chicken?lock=9",
-      "price": 7.0,
-      "name": {
-        "en": "Herb Grilled Chicken Bowl",
-        "ar": "وعاء الدجاج المشوي بالأعشاب"
-      },
-      "ingredients": {
-        "en": [
-          "Grilled chicken breast",
-          "Brown rice",
-          "Roasted vegetables",
-          "Herb dressing"
-        ],
-        "ar": [
-          "صدر دجاج مشوي",
-          "أرز بني",
-          "خضار مشوية",
-          "صلصة الأعشاب"
-        ]
-      },
-      "nutrition": {
-        "cal": 560,
-        "protein": 48,
-        "carbs": 52,
-        "fat": 16
-      }
-    },
-    {
-      "id": "ch-2",
-      "category": "chicken",
-      "image": "https://loremflickr.com/800/800/teriyaki,chicken?lock=10",
-      "price": 7.5,
-      "name": {
-        "en": "Teriyaki Chicken Glow Bowl",
-        "ar": "وعاء الدجاج بصلصة التيرياكي"
-      },
-      "ingredients": {
-        "en": [
-          "Chicken thigh",
-          "Steamed vegetables",
-          "Brown rice",
-          "House date teriyaki",
-          "Sesame"
-        ],
-        "ar": [
-          "فخذ دجاج",
-          "خضار مطهوة على البخار",
-          "أرز بني",
-          "تيرياكي بالتمر",
-          "سمسم"
-        ]
-      },
-      "nutrition": {
-        "cal": 640,
-        "protein": 46,
-        "carbs": 68,
-        "fat": 20
-      }
-    },
-    {
-      "id": "ch-3",
-      "category": "chicken",
-      "image": "https://loremflickr.com/800/800/lemon,chicken?lock=11",
-      "price": 7.25,
-      "name": {
-        "en": "Lemon Garlic Chicken & Quinoa",
-        "ar": "دجاج بالليمون والثوم مع الكينوا"
-      },
-      "ingredients": {
-        "en": [
-          "Chicken breast",
-          "Quinoa",
-          "Lemon",
-          "Garlic",
-          "Zucchini"
-        ],
-        "ar": [
-          "صدر دجاج",
-          "كينوا",
-          "ليمون",
-          "ثوم",
-          "كوسا"
-        ]
-      },
-      "nutrition": {
-        "cal": 520,
-        "protein": 50,
-        "carbs": 40,
-        "fat": 14
-      }
-    },
-    {
-      "id": "ch-4",
-      "category": "chicken",
-      "image": "https://loremflickr.com/800/800/pesto,chicken?lock=12",
-      "price": 7.0,
-      "name": {
-        "en": "Pesto Chicken & Brown Rice",
-        "ar": "دجاج بالبيستو مع الأرز البني"
-      },
-      "ingredients": {
-        "en": [
-          "Chicken breast",
-          "Basil pesto",
-          "Brown rice",
-          "Cherry tomato",
-          "Spring greens"
-        ],
-        "ar": [
-          "صدر دجاج",
-          "بيستو الريحان",
-          "أرز بني",
-          "طماطم كرزية",
-          "خضار ورقية"
-        ]
-      },
-      "nutrition": {
-        "cal": 590,
-        "protein": 47,
-        "carbs": 48,
-        "fat": 19
-      }
-    },
-    {
-      "id": "sa-1",
-      "category": "salads",
-      "image": "https://loremflickr.com/800/800/kale,salad?lock=13",
-      "price": 5.5,
-      "name": {
-        "en": "Superfood Kale & Quinoa Salad",
-        "ar": "سلطة الكيل والكينوا"
-      },
-      "ingredients": {
-        "en": [
-          "Kale",
-          "Quinoa",
-          "Blueberries",
-          "Chickpeas",
-          "Lemon tahini"
-        ],
-        "ar": [
-          "كيل",
-          "كينوا",
-          "توت أزرق",
-          "حمص",
-          "صلصة الليمون والطحينة"
-        ]
-      },
-      "nutrition": {
-        "cal": 380,
-        "protein": 14,
-        "carbs": 46,
-        "fat": 16
-      }
-    },
-    {
-      "id": "sa-2",
-      "category": "salads",
-      "image": "https://loremflickr.com/800/800/greek,salad?lock=14",
-      "price": 5.0,
-      "name": {
-        "en": "Greek Garden Salad",
-        "ar": "السلطة اليونانية"
-      },
-      "ingredients": {
-        "en": [
-          "Cucumber",
-          "Tomato",
-          "Olives",
-          "Feta",
-          "Oregano"
-        ],
-        "ar": [
-          "خيار",
-          "بندورة",
-          "زيتون",
-          "جبنة فيتا",
-          "زعتر بري"
-        ]
-      },
-      "nutrition": {
-        "cal": 310,
-        "protein": 11,
-        "carbs": 18,
-        "fat": 22
-      }
-    },
-    {
-      "id": "sa-3",
-      "category": "salads",
-      "image": "https://loremflickr.com/800/800/roasted,vegetables?lock=15",
-      "price": 5.75,
-      "name": {
-        "en": "Roasted Vegetable Salad",
-        "ar": "سلطة الخضار المشوية"
-      },
-      "ingredients": {
-        "en": [
-          "Sweet potato",
-          "Beetroot",
-          "Rocket",
-          "Pumpkin seeds",
-          "Balsamic"
-        ],
-        "ar": [
-          "بطاطا حلوة",
-          "شمندر",
-          "جرجير",
-          "بذور القرع",
-          "خل بلسمي"
-        ]
-      },
-      "nutrition": {
-        "cal": 360,
-        "protein": 9,
-        "carbs": 48,
-        "fat": 15
-      }
-    },
-    {
-      "id": "sn-1",
-      "category": "snacks",
-      "image": "https://loremflickr.com/800/800/energy,balls?lock=16",
       "price": 2.5,
-      "name": {
-        "en": "Date & Almond Energy Balls",
-        "ar": "كرات التمر واللوز"
-      },
-      "ingredients": {
-        "en": [
-          "Dates",
-          "Almonds",
-          "Cocoa",
-          "Coconut"
-        ],
-        "ar": [
-          "تمر",
-          "لوز",
-          "كاكاو",
-          "جوز هند"
-        ]
-      },
-      "nutrition": {
-        "cal": 240,
-        "protein": 6,
-        "carbs": 32,
-        "fat": 11
-      }
+      "image": "https://res.cloudinary.com/di1xpud7d/image/upload/v1793996768/IMG-20261106-WA0002_lb6pwd.jpg"
     },
     {
-      "id": "sn-2",
-      "category": "snacks",
-      "image": "https://loremflickr.com/800/800/granola,yogurt?lock=17",
-      "price": 3.0,
+      "id": 2,
+      "category": "puddings",
       "name": {
-        "en": "Protein Granola Cup",
-        "ar": "كوب الجرانولا بالبروتين"
+        "ar": "الموز",
+        "en": "Banana"
       },
-      "ingredients": {
-        "en": [
-          "Oat granola",
-          "Greek yogurt",
-          "Honey",
-          "Seasonal fruit"
-        ],
-        "ar": [
-          "جرانولا الشوفان",
-          "زبادي يوناني",
-          "عسل",
-          "فواكه موسمية"
-        ]
-      },
-      "nutrition": {
-        "cal": 290,
-        "protein": 16,
-        "carbs": 36,
-        "fat": 9
-      }
+      "price": 2.25,
+      "image": "https://res.cloudinary.com/di1xpud7d/image/upload/v1793996768/IMG-20261106-WA0003_p40g6y.jpg"
     },
     {
-      "id": "sn-3",
+      "id": 3,
+      "category": "puddings",
+      "name": {
+        "ar": "بودينغ البلوبيري",
+        "en": "Blueberry Pudding"
+      },
+      "price": 2.75,
+      "image": "https://res.cloudinary.com/di1xpud7d/image/upload/v1793996768/IMG-20261106-WA0004_i9vwdy.jpg"
+    },
+    {
+      "id": 4,
+      "category": "puddings",
+      "name": {
+        "ar": "بودينغ مكس",
+        "en": "Mixed Pudding"
+      },
+      "price": 3,
+      "image": "https://res.cloudinary.com/di1xpud7d/image/upload/v1793996767/IMG-20261106-WA0005_koapdc.jpg"
+    },
+    {
+      "id": 5,
       "category": "snacks",
-      "image": "https://loremflickr.com/800/800/falafel?lock=18",
+      "name": {
+        "ar": "جرانولا",
+        "en": "Granola"
+      },
+      "price": 1.75,
+      "image": "https://res.cloudinary.com/di1xpud7d/image/upload/v1793996763/IMG-20261106-WA0006_rmfxq2.jpg"
+    },
+    {
+      "id": 6,
+      "category": "pasta",
+      "name": {
+        "ar": "فيتوتشيني إيطالية",
+        "en": "Italian Fettuccine"
+      },
+      "price": 4.5,
+      "image": "https://res.cloudinary.com/di1xpud7d/image/upload/v1793996748/IMG-20261106-WA0012_lp87as.jpg"
+    },
+    {
+      "id": 7,
+      "category": "desserts",
+      "name": {
+        "ar": "كيكة سان سباستيان",
+        "en": "San Sebastian Cheesecake"
+      },
+      "price": 1.5,
+      "unit": "piece",
+      "image": "https://res.cloudinary.com/di1xpud7d/image/upload/v1793996763/IMG-20261106-WA0011_oaqnrn.jpg"
+    },
+    {
+      "id": 8,
+      "category": "salads",
+      "name": {
+        "ar": "جرين باور",
+        "en": "Green Power"
+      },
       "price": 3.25,
-      "name": {
-        "en": "Baked Falafel Bites",
-        "ar": "فلافل مخبوزة"
-      },
       "ingredients": {
-        "en": [
-          "Chickpeas",
-          "Parsley",
-          "Coriander",
-          "Garlic",
-          "Tahini dip"
-        ],
-        "ar": [
-          "حمص",
-          "بقدونس",
-          "كزبرة",
-          "ثوم",
-          "غمّوس الطحينة"
-        ]
+        "ar": ["سلطة عادية", "أفوكادو", "فلفل"],
+        "en": ["Regular Salad", "Avocado", "Bell Pepper"]
       },
-      "nutrition": {
-        "cal": 260,
-        "protein": 12,
-        "carbs": 30,
-        "fat": 10
-      }
+      "image": "https://res.cloudinary.com/di1xpud7d/image/upload/v1793996763/IMG-20261106-WA0019_chytjw.jpg"
+    },
+    {
+      "id": 9,
+      "category": "meals",
+      "name": {
+        "ar": "وجبة بيري",
+        "en": "Berry Meal"
+      },
+      "price": 3.75,
+      "ingredients": {
+        "ar": ["250 غرام صدر دجاج", "خس", "صوص طحينة"],
+        "en": ["250g Chicken Breast", "Lettuce", "Tahini Sauce"]
+      },
+      "image": "https://res.cloudinary.com/di1xpud7d/image/upload/v1793996762/IMG-20261106-WA0027_apttsk.jpg"
+    },
+    {
+      "id": 10,
+      "category": "meals",
+      "name": {
+        "ar": "وجبة ساوردو والتونة",
+        "en": "Sourdough and Tuna Meal"
+      },
+      "price": 2.75,
+      "ingredients": {
+        "ar": ["سلطة", "أفوكادو", "تونة", "خبز ساوردو"],
+        "en": ["Salad", "Avocado", "Tuna", "Sourdough Bread"]
+      },
+      "image": "https://res.cloudinary.com/di1xpud7d/image/upload/v1793996762/IMG-20261106-WA0007_y9vqki.jpg"
+    },
+    {
+      "id": 11,
+      "category": "pasta",
+      "name": {
+        "ar": "معكرونة بالسبانخ",
+        "en": "Spinach Pasta"
+      },
+      "price": 4,
+      "image": "https://res.cloudinary.com/di1xpud7d/image/upload/v1793996763/IMG-20261106-WA0008_jqzrmg.jpg"
+    },
+    {
+      "id": 12,
+      "category": "pasta",
+      "name": {
+        "ar": "معكرونة بالشمندر",
+        "en": "Beetroot Pasta"
+      },
+      "price": 4,
+      "image": "https://res.cloudinary.com/di1xpud7d/image/upload/v1793996758/IMG-20261106-WA0015_ru9k2l.jpg"
+    },
+    {
+      "id": 13,
+      "category": "salads",
+      "name": {
+        "ar": "سلطة المعكرونة",
+        "en": "Pasta Salad"
+      },
+      "price": 2.25,
+      "image": "https://res.cloudinary.com/di1xpud7d/image/upload/v1793996758/IMG-20261106-WA0009_xfhpi6.jpg"
+    },
+    {
+      "id": 14,
+      "category": "meals",
+      "name": {
+        "ar": "كاري مع رز",
+        "en": "Curry with Rice"
+      },
+      "price": 3.25,
+      "image": "https://res.cloudinary.com/di1xpud7d/image/upload/v1793996758/IMG-20261106-WA0024_dkxmgw.jpg"
+    },
+    {
+      "id": 15,
+      "category": "meals",
+      "name": {
+        "ar": "مكس",
+        "en": "Mix"
+      },
+      "price": 3,
+      "image": "https://res.cloudinary.com/di1xpud7d/image/upload/v1793996757/IMG-20261106-WA0013_yujk19.jpg"
+    },
+    {
+      "id": 16,
+      "category": "steaks",
+      "name": {
+        "ar": "ستيك 250 غرام",
+        "en": "250g Steak"
+      },
+      "price": 9,
+      "image": "https://res.cloudinary.com/di1xpud7d/image/upload/v1793996757/IMG-20261106-WA0017_bvj4rx.jpg"
+    },
+    {
+      "id": 17,
+      "category": "meals",
+      "name": {
+        "ar": "مكس",
+        "en": "Mix"
+      },
+      "price": 3.5,
+      "image": "https://res.cloudinary.com/di1xpud7d/image/upload/v1793996754/IMG-20261106-WA0021_gwxjwz.jpg"
+    },
+    {
+      "id": 18,
+      "category": "meals",
+      "name": {
+        "ar": "مكس اللحمة",
+        "en": "Meat Mix"
+      },
+      "price": 4.5,
+      "image": "https://res.cloudinary.com/di1xpud7d/image/upload/v1793996754/IMG-20261106-WA0023_bfntve.jpg"
+    },
+    {
+      "id": 19,
+      "category": "salads",
+      "name": {
+        "ar": "سلطة دجاج",
+        "en": "Chicken Salad"
+      },
+      "price": 2.75,
+      "image": "https://res.cloudinary.com/di1xpud7d/image/upload/v1793996753/IMG-20261106-WA0026_ux2jes.jpg"
+    },
+    {
+      "id": 20,
+      "category": "chicken",
+      "name": {
+        "ar": "دجاج مع خضار سوتيه",
+        "en": "Chicken with Sautéed Vegetables"
+      },
+      "price": 5,
+      "image": "https://res.cloudinary.com/di1xpud7d/image/upload/v1793996753/IMG-20261106-WA0029_hcclko.jpg"
+    },
+    {
+      "id": 21,
+      "category": "meals",
+      "name": {
+        "ar": "مسالا",
+        "en": "Masala"
+      },
+      "price": 2.75,
+      "image": "https://res.cloudinary.com/di1xpud7d/image/upload/v1793996753/IMG-20261106-WA0014_u2xtcr.jpg"
+    },
+    {
+      "id": 22,
+      "category": "chicken",
+      "name": {
+        "ar": "شيش طاووق مكس",
+        "en": "Shish Tawook Mix"
+      },
+      "price": 3.75,
+      "image": "https://res.cloudinary.com/di1xpud7d/image/upload/v1793996752/IMG-20261106-WA0016_npwt47.jpg"
+    },
+    {
+      "id": 23,
+      "category": "chicken",
+      "name": {
+        "ar": "بيري بيري",
+        "en": "Peri Peri"
+      },
+      "price": 3,
+      "image": "https://res.cloudinary.com/di1xpud7d/image/upload/v1793996749/IMG-20261106-WA0018_l8tdcy.jpg"
+    },
+    {
+      "id": 24,
+      "category": "chicken",
+      "name": {
+        "ar": "شيش طاووق مع رز",
+        "en": "Shish Tawook with Rice"
+      },
+      "price": 3,
+      "image": "https://res.cloudinary.com/di1xpud7d/image/upload/v1793996748/IMG-20261106-WA0020_vfkisb.jpg"
+    },
+    {
+      "id": 25,
+      "category": "salads",
+      "name": {
+        "ar": "سلطة دجاج مكس",
+        "en": "Mixed Chicken Salad"
+      },
+      "price": 4,
+      "image": "https://res.cloudinary.com/di1xpud7d/image/upload/v1793996748/IMG-20261106-WA0022_yuedwh.jpg"
+    },
+    {
+      "id": 26,
+      "category": "steaks",
+      "name": {
+        "ar": "ستيك مكس",
+        "en": "Steak Mix"
+      },
+      "price": 9.5,
+      "image": "https://res.cloudinary.com/di1xpud7d/image/upload/v1793996748/IMG-20261106-WA0010_uvhxdl.jpg"
+    },
+    {
+      "id": 27,
+      "category": "salads",
+      "name": {
+        "ar": "سلطة الجرجير",
+        "en": "Arugula Salad"
+      },
+      "price": 1.2,
+      "image": "https://res.cloudinary.com/di1xpud7d/image/upload/v1793996747/IMG-20261106-WA0025_ckamcg.jpg"
+    },
+    {
+      "id": 28,
+      "category": "pasta",
+      "name": {
+        "ar": "سباغيتي بالشمندر",
+        "en": "Beetroot Spaghetti"
+      },
+      "price": 4.5,
+      "image": "https://res.cloudinary.com/di1xpud7d/image/upload/v1793996747/IMG-20261106-WA0028_xvubvl.jpg"
     }
   ],
   "subscriptions": [

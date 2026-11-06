@@ -53,8 +53,8 @@ export default function Menu({ cat, setCat, onOpen }) {
       </div>
 
       <div className="sticky top-16 z-20 mt-8 border-b border-line/70 bg-paper/90 backdrop-blur">
-        <div className="mx-auto flex max-w-7xl flex-col gap-3 px-4 py-3 sm:px-6 lg:flex-row lg:items-center lg:justify-between">
-          <nav aria-label={t('menuTitle')} className="no-scrollbar -mx-4 flex gap-2 overflow-x-auto px-4 sm:mx-0 sm:px-0">
+        <div className="mx-auto flex max-w-7xl flex-col gap-3 px-4 py-3 sm:px-6">
+          <nav aria-label={t('menuTitle')} className="flex flex-wrap gap-2">
             {tabs.map((tab) => (
               <button
                 key={tab.id}
