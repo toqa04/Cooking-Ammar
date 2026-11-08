@@ -112,10 +112,21 @@ export default function Menu({ cat, setCat, onOpen }) {
         ))}
 
         {groups.length === 0 && (
-          <div className="mx-auto max-w-md py-16 text-center">
-            <h3 className="text-xl font-bold">{t('noResultsTitle')}</h3>
-            <p className="mt-2 text-muted">{t('noResultsText')}</p>
-            <button onClick={() => setQuery('')} className="mt-5 rounded-full bg-ink px-5 py-2.5 text-sm font-semibold text-paper hover:bg-leaf-deep">
+          <div className="mx-auto flex max-w-lg flex-col items-center rounded-[2rem] border border-line/70 bg-white/80 px-6 py-10 text-center shadow-[0_20px_60px_-48px_rgba(10,61,39,.45)] sm:py-12">
+            <div className="empty-chef mb-5 grid h-36 w-36 place-items-center rounded-full bg-mint/60" aria-hidden="true">
+              <img
+                className="empty-chef__image h-28 w-28 object-contain"
+                src="https://emojicdn.elk.sh/%F0%9F%A7%91%E2%80%8D%F0%9F%8D%B3?style=google"
+                alt=""
+                width="128"
+                height="128"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <h3 className="text-xl font-bold text-leaf-deep">{t('noResultsTitle')}</h3>
+            <p className="mt-2 max-w-sm text-muted">{t('noResultsText')}</p>
+            <button onClick={() => setQuery('')} className="mt-6 rounded-full bg-ink px-5 py-2.5 text-sm font-semibold text-paper transition hover:-translate-y-0.5 hover:bg-leaf-deep">
               {t('clearSearch')}
             </button>
           </div>
