@@ -48,20 +48,26 @@ export default function Menu({ cat, setCat, onOpen }) {
   return (
     <section id="menu" className="scroll-mt-16">
       <div className="mx-auto max-w-7xl px-4 pt-16 sm:px-6">
-        <h2 className="text-4xl font-extrabold tracking-tight sm:text-5xl">{t('menuTitle')}</h2>
-        <p className="mt-3 max-w-xl text-muted">{t('menuSub')}</p>
+        <span data-reveal className="scroll-reveal mb-3 inline-flex items-center gap-2 rounded-full bg-mint px-3 py-1 text-xs font-bold text-leaf-deep">
+          <span className="h-1.5 w-1.5 rounded-full bg-leaf" aria-hidden="true" />
+          {t('heroTile')}
+        </span>
+        <h2 data-reveal className="scroll-reveal text-4xl font-extrabold tracking-tight text-leaf-deep sm:text-5xl">{t('menuTitle')}</h2>
+        <p data-reveal className="scroll-reveal mt-3 max-w-xl text-muted" style={{ '--reveal-delay': '.08s' }}>{t('menuSub')}</p>
       </div>
 
-      <div className="sticky top-16 z-20 mt-8 border-b border-line/70 bg-paper/90 backdrop-blur">
+      <div className="sticky top-16 z-20 mt-8 border-y border-line/70 bg-paper/90 shadow-[0_8px_24px_-22px_rgba(14,21,18,.5)] backdrop-blur">
         <div className="mx-auto flex max-w-7xl flex-col gap-3 px-4 py-3 sm:px-6">
-          <nav aria-label={t('menuTitle')} className="flex flex-wrap gap-2">
+          <nav aria-label={t('menuTitle')} className="no-scrollbar flex flex-nowrap gap-2 overflow-x-auto pb-1">
             {tabs.map((tab) => (
               <button
                 key={tab.id}
                 onClick={() => setCat(tab.id)}
                 aria-pressed={cat === tab.id}
-                className={`shrink-0 rounded-full px-4 py-2 text-sm font-semibold transition ${
-                  cat === tab.id ? 'bg-ink text-paper' : 'bg-surface text-ink hover:bg-line'
+                className={`shrink-0 rounded-full border px-4 py-2 text-sm font-semibold transition ${
+                  cat === tab.id
+                    ? 'border-leaf bg-leaf text-white shadow-sm shadow-leaf/20'
+                    : 'border-line bg-white/80 text-ink hover:border-leaf/40 hover:bg-mint/50'
                 }`}
               >
                 {tab.label}
@@ -89,12 +95,13 @@ export default function Menu({ cat, setCat, onOpen }) {
 
       <div className="mx-auto max-w-7xl space-y-14 px-4 py-10 sm:px-6">
         {groups.map((g) => (
-          <div key={g.id}>
-            <div className="mb-5 flex items-baseline gap-3">
+          <div key={g.id} className="menu-group">
+            <div data-reveal className="scroll-reveal mb-5 flex items-center gap-3">
+              <span className="h-7 w-1 rounded-full bg-leaf" aria-hidden="true" />
               <h3 className="text-2xl font-extrabold">{g.title}</h3>
-              <span className="text-sm text-muted">{g.items.length} {t('items')}</span>
+              <span className="rounded-full bg-surface px-3 py-1 text-xs font-semibold text-muted">{g.items.length} {t('items')}</span>
             </div>
-            <div className="grid grid-cols-1 gap-x-5 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            <div className="grid grid-cols-1 gap-x-5 gap-y-7 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
               {g.items.map((item) =>
                 g.type === 'meal'
                   ? <ProductCard key={item.id} item={item} onOpen={onOpen} />

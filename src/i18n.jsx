@@ -2,7 +2,8 @@ import { createContext, useContext, useEffect, useMemo, useState } from 'react'
 
 const dict = {
   en: {
-    heroTag: 'Healthy meals, made fresh and made with care.',
+    heroHeadline: "Let's eat",
+    heroTag: 'Fresh meals, made with care.',
     heroTile: 'Fresh, every single day.',
     browse: 'Shop by category',
     heroCta: 'Explore the menu',
@@ -34,7 +35,8 @@ const dict = {
     switchLabel: 'Switch to Arabic',
   },
   ar: {
-    heroTag: 'وجبات صحية، طازجة ومحضّرة بعناية.',
+    heroHeadline: 'يلا ناكل',
+    heroTag: 'وجبات طازجة ومحضّرة بعناية.',
     heroTile: 'طازج، كل يوم.',
     browse: 'تسوّق حسب الصنف',
     heroCta: 'تصفّح القائمة',
