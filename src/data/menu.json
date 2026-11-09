@@ -82,6 +82,13 @@
       "en": "Desserts",
       "ar": "حلويات"
     }
+  },
+  {
+    "id": "toasts",
+    "name": {
+      "en": "Toasts",
+      "ar": "توست"
+    }
   }
 ],
   "products": [
@@ -262,10 +269,10 @@
       "id": 17,
       "category": "meals",
       "name": {
-        "ar": "مكس",
-        "en": "Mix"
+        "ar": "دجاج صيني",
+        "en": "Chinese Chicken"
       },
-      "price": 3.5,
+      "price": 5.5,
       "image": "https://res.cloudinary.com/di1xpud7d/image/upload/v1793996754/IMG-20261106-WA0021_gwxjwz.jpg"
     },
     {
@@ -377,98 +384,434 @@
       },
       "price": 4.5,
       "image": "https://res.cloudinary.com/di1xpud7d/image/upload/v1793996747/IMG-20261106-WA0028_xvubvl.jpg"
+    },
+    {
+      "id": 29,
+      "category": "meals",
+      "name": {
+        "ar": "فاصوليا",
+        "en": "Green Beans"
+      },
+      "price": 3.5,
+      "image": "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794225807/WhatsApp_Image_2026-11-09_at_2.54.57_PM.jpg"
+    },
+    {
+      "id": 30,
+      "category": "meals",
+      "name": {
+        "ar": "فطورنا",
+        "en": "Our Breakfast"
+      },
+      "price": 3.6,
+      "image": "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794225808/WhatsApp_Image_2026-11-09_at_2.54.57_PM_1.jpg"
+    },
+    {
+      "id": 31,
+      "category": "meals",
+      "name": {
+        "ar": "ساندويتش السبانخ",
+        "en": "Spinach Sandwich"
+      },
+      "price": 3,
+      "image": "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794225807/WhatsApp_Image_2026-11-09_at_2.54.57_PM_2.jpg"
+    },
+    {
+      "id": 32,
+      "category": "salads",
+      "name": {
+        "ar": "سلطة صينية",
+        "en": "Chinese Salad"
+      },
+      "price": 4,
+      "image": "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794225807/WhatsApp_Image_2026-11-09_at_2.54.56_PM_1.jpg"
+    },
+    {
+      "id": 33,
+      "category": "pasta",
+      "name": {
+        "ar": "فيتوشيني بالفيتا",
+        "en": "Feta Fettuccine"
+      },
+      "price": 5,
+      "image": "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794225807/WhatsApp_Image_2026-11-09_at_2.54.56_PM_2.jpg"
+    },
+    {
+      "id": 34,
+      "category": "meals",
+      "name": {
+        "ar": "مع اللحم",
+        "en": "Meat Dish / Beef Meal"
+      },
+      "price": 4,
+      "image": "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794225806/WhatsApp_Image_2026-11-09_at_2.54.55_PM.jpg"
+    },
+    {
+      "id": 35,
+      "category": "salads",
+      "name": {
+        "ar": "سلطة الحمص",
+        "en": "Chickpea Salad"
+      },
+      "price": 2,
+      "image": "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794225806/WhatsApp_Image_2026-11-09_at_2.54.55_PM_1.jpg"
+    },
+    {
+      "id": 36,
+      "category": "salads",
+      "name": {
+        "ar": "سلطة سيزر",
+        "en": "Caesar Salad"
+      },
+      "price": 2.5,
+      "image": "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794225806/WhatsApp_Image_2026-11-09_at_2.54.55_PM_2.jpg"
+    },
+    {
+      "id": 37,
+      "category": "salads",
+      "name": {
+        "ar": "سلطة عادية",
+        "en": "Regular Salad"
+      },
+      "price": 2.5,
+      "image": "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794225806/WhatsApp_Image_2026-11-09_at_2.54.55_PM_3.jpg"
+    },
+    {
+      "id": 38,
+      "category": "salads",
+      "name": {
+        "ar": "سلطة عادية",
+        "en": "Regular Salad"
+      },
+      "price": 2.5,
+      "image": "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794225806/WhatsApp_Image_2026-11-09_at_2.54.54_PM.jpg"
+    },
+    {
+      "id": 40,
+      "category": "juices",
+      "name": {
+        "ar": "عصير طازج 1",
+        "en": "Fresh Juice 1"
+      },
+      "price": 2,
+      "image": "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794227128/WhatsApp_Image_2026-11-08_at_11.06.49_PM_2.jpg"
+    },
+    {
+      "id": 41,
+      "category": "juices",
+      "name": {
+        "ar": "عصير طازج 2",
+        "en": "Fresh Juice 2"
+      },
+      "price": 2,
+      "image": "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794227129/WhatsApp_Image_2026-11-08_at_11.06.49_PM.jpg"
+    },
+    {
+      "id": 42,
+      "category": "juices",
+      "name": {
+        "ar": "عصير طازج 3",
+        "en": "Fresh Juice 3"
+      },
+      "price": 2,
+      "image": "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794227129/WhatsApp_Image_2026-11-08_at_11.06.49_PM_1.jpg"
+    },
+    {
+      "id": 43,
+      "category": "pasta",
+      "name": {
+        "ar": "معكرونة بيني",
+        "en": "Penne Pasta"
+      },
+      "price": 5,
+      "image": "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794168665/WhatsApp_Image_2026-11-08_at_11.06.15_PM.jpg"
+    },
+    {
+      "id": 44,
+      "category": "salads",
+      "name": {
+        "ar": "سلطة الجبن",
+        "en": "Cheese Salad"
+      },
+      "price": 3.75,
+      "image": "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794168665/WhatsApp_Image_2026-11-08_at_11.04.18_PM_3.jpg"
+    },
+    {
+      "id": 45,
+      "category": "desserts",
+      "name": {
+        "ar": "سلطة فواكة",
+        "en": "Fruit Salad"
+      },
+      "price": 3.5,
+      "image": "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794168665/WhatsApp_Image_2026-11-08_at_11.04.18_PM_2.jpg"
+    },
+    {
+      "id": 46,
+      "category": "meals",
+      "name": {
+        "ar": "كباب 500 غرام",
+        "en": "Kebab 500g"
+      },
+      "price": 6.5,
+      "image": "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794168665/WhatsApp_Image_2026-11-08_at_11.04.18_PM_1.jpg"
+    },
+    {
+      "id": 47,
+      "category": "desserts",
+      "name": {
+        "ar": "بان كيك",
+        "en": "Pancakes"
+      },
+      "price": 3,
+      "image": "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794168666/WhatsApp_Image_2026-11-08_at_11.04.18_PM.jpg"
+    },
+    {
+      "id": 48,
+      "category": "toasts",
+      "name": {
+        "ar": "البيستو مع اللبنة",
+        "en": "Pesto with Labneh"
+      },
+      "price": 2.5,
+      "image": "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794168672/WhatsApp_Image_2026-11-08_at_9.23.39_PM.jpg"
+    },
+    {
+      "id": 49,
+      "category": "toasts",
+      "name": {
+        "ar": "بيستو مع اللبنة والمكسرات",
+        "en": "Pesto with Labneh and Nuts"
+      },
+      "price": 2.5,
+      "image": "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794168666/WhatsApp_Image_2026-11-08_at_9.23.39_PM_4.jpg"
+    },
+    {
+      "id": 50,
+      "category": "toasts",
+      "name": {
+        "ar": "بيستو مع حلوم",
+        "en": "Pesto with Halloumi"
+      },
+      "price": 2.5,
+      "image": "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794168666/WhatsApp_Image_2026-11-08_at_9.23.40_PM.jpg"
+    },
+    {
+      "id": 51,
+      "category": "toasts",
+      "name": {
+        "ar": "بيستو مع بيض",
+        "en": "Pesto with Eggs"
+      },
+      "price": 2.5,
+      "image": "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794168665/WhatsApp_Image_2026-11-08_at_9.23.40_PM_1.jpg"
+    },
+    {
+      "id": 52,
+      "category": "toasts",
+      "name": {
+        "ar": "توست بصوص الافوكادو",
+        "en": "Toast with Avocado Sauce"
+      },
+      "price": 2.5,
+      "image": "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794168665/WhatsApp_Image_2026-11-08_at_9.23.40_PM_2.jpg"
+    },
+    {
+      "id": 53,
+      "category": "toasts",
+      "name": {
+        "ar": "توست مع فول سوداني و بلو بيري",
+        "en": "Toast with Peanut Butter and Blueberry"
+      },
+      "price": 2.5,
+      "image": "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794168667/WhatsApp_Image_2026-11-08_at_9.23.40_PM_3.jpg"
+    },
+    {
+      "id": 54,
+      "category": "toasts",
+      "name": {
+        "ar": "سالمون و الافوكادو",
+        "en": "Salmon and Avocado"
+      },
+      "price": 3.5,
+      "image": "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794168666/WhatsApp_Image_2026-11-08_at_9.23.41_PM.jpg"
+    },
+    {
+      "id": 55,
+      "category": "toasts",
+      "name": {
+        "ar": "سالمون",
+        "en": "Salmon"
+      },
+      "price": 3.5,
+      "image": "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794168666/WhatsApp_Image_2026-11-08_at_9.23.41_PM_1.jpg"
+    },
+    {
+      "id": 56,
+      "category": "toasts",
+      "name": {
+        "ar": "توست بالتوت",
+        "en": "Berry Toast"
+      },
+      "price": 2.5,
+      "image": "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794168666/WhatsApp_Image_2026-11-08_at_9.23.41_PM_2.jpg"
+    },
+    {
+      "id": 57,
+      "category": "toasts",
+      "name": {
+        "ar": "افوكادو واللبنة",
+        "en": "Avocado and Labneh"
+      },
+      "price": 2.5,
+      "image": "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794168666/WhatsApp_Image_2026-11-08_at_9.23.41_PM_3.jpg"
+    },
+    {
+      "id": 58,
+      "category": "meals",
+      "name": {
+        "ar": "فطائر الكوسا",
+        "en": "Zucchini Pastries"
+      },
+      "price": 3.75,
+      "image": "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794168666/WhatsApp_Image_2026-11-08_at_9.23.39_PM_2.jpg"
+    },
+    {
+      "id": 59,
+      "category": "salads",
+      "name": {
+        "ar": "مكس سلطة",
+        "en": "Mixed Salad"
+      },
+      "price": 3.5,
+      "image": "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794168667/WhatsApp_Image_2026-11-08_at_9.23.39_PM_1.jpg"
+    },
+    {
+      "id": 60,
+      "category": "meals",
+      "name": {
+        "ar": "رز بالكزبرة",
+        "en": "Coriander Rice"
+      },
+      "price": 4.25,
+      "image": "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794168667/WhatsApp_Image_2026-11-08_at_9.23.38_PM_3.jpg"
+    },
+    {
+      "id": 61,
+      "category": "meals",
+      "name": {
+        "ar": "اقراص اللحم",
+        "en": "Meat Patties"
+      },
+      "price": 4.5,
+      "image": "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794168667/WhatsApp_Image_2026-11-08_at_9.23.38_PM_2.jpg"
+    },
+    {
+      "id": 62,
+      "category": "meals",
+      "name": {
+        "ar": "سالمون",
+        "en": "Salmon Meal"
+      },
+      "price": 8.5,
+      "image": "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794168671/WhatsApp_Image_2026-11-08_at_9.23.38_PM_1.jpg"
+    },
+    {
+      "id": 63,
+      "category": "salads",
+      "name": {
+        "ar": "سلطة التونة",
+        "en": "Tuna Salad"
+      },
+      "price": 2.75,
+      "image": "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794168671/WhatsApp_Image_2026-11-08_at_9.23.38_PM.jpg"
+    },
+    {
+      "id": 64,
+      "category": "salads",
+      "name": {
+        "ar": "سلطة مكس",
+        "en": "Mixed Salad"
+      },
+      "price": 5.5,
+      "image": "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794168672/WhatsApp_Image_2026-11-08_at_9.23.37_PM.jpg"
     }
   ],
   "subscriptions": [
     {
       "id": "sub-1",
-      "image": "https://loremflickr.com/800/800/healthy,meal,prep?lock=50",
-      "price": 30,
+      "image": "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794230468/%D8%B5%D9%88%D8%B1%D8%A9_%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%D9%83_%D8%A3%D9%88%D9%84%D9%89.png",
+      "price": 50,
       "period": "week",
       "name": {
-        "en": "Weekly Plan",
-        "ar": "الاشتراك الأسبوعي"
+        "en": "Weekly Lunch Plan",
+        "ar": "اشتراك وجبة الغداء الأسبوعي"
       },
       "summary": {
-        "en": "5 lunches, one every working day.",
-        "ar": "5 وجبات غداء، وجبة لكل يوم عمل."
+        "en": "A weekly lunch subscription with delivery included.",
+        "ar": "اشتراك أسبوعي لوجبة غداء مع التوصيل."
       },
       "details": {
         "en": [
-          "5 chef-picked lunches, Sunday to Thursday",
-          "Choose between chicken, salad or bowl each day",
-          "1 free juice or pudding with the plan",
-          "Delivered fresh each morning",
-          "Pause or skip any week"
+          "Lunch meal and delivery included",
+          "Can be tailored for weight loss or weight gain",
+          "Calories, protein and other nutrition values are calculated"
         ],
         "ar": [
-          "5 وجبات غداء من اختيار الشيف، من الأحد إلى الخميس",
-          "اختر كل يوم بين الدجاج أو السلطة أو الوعاء",
-          "عصير أو بودينج مجاني مع الاشتراك",
-          "توصيل طازج كل صباح",
-          "إمكانية الإيقاف أو تخطي أي أسبوع"
+          "يشمل وجبة غداء والتوصيل",
+          "قابل للتخصيص لزيادة الوزن أو نقصان الوزن",
+          "السعرات الحرارية والبروتين وباقي القيم الغذائية محسوبة"
         ]
       }
     },
     {
       "id": "sub-2",
-      "image": "https://loremflickr.com/800/800/healthy,meal,prep?lock=51",
-      "price": 110,
+      "image": "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794230469/%D8%B5%D9%88%D8%B1%D8%A9_%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%D9%83_%D8%AB%D8%A7%D9%86%D9%8A%D8%A9.png",
+      "price": 180,
       "period": "month",
       "name": {
-        "en": "Monthly Balanced Plan",
-        "ar": "الاشتراك الشهري المتوازن"
+        "en": "30-Day Lunch Plan",
+        "ar": "اشتراك وجبة الغداء لمدة 30 يومًا"
       },
       "summary": {
-        "en": "20 meals with a balanced weekly rotation.",
-        "ar": "20 وجبة بتنويع أسبوعي متوازن."
+        "en": "A 30-day lunch subscription with delivery included.",
+        "ar": "اشتراك وجبة غداء لمدة 30 يومًا شامل التوصيل."
       },
       "details": {
         "en": [
-          "20 meals across the month",
-          "Balanced rotation of protein, salads and bowls",
-          "4 juices or puddings included",
-          "Calorie and macro details for every meal",
-          "Free delivery",
-          "Swap any meal up to the evening before"
+          "Lunch meal and delivery included",
+          "Can be tailored for weight loss or weight gain",
+          "Calories, protein and other nutrition values are calculated"
         ],
         "ar": [
-          "20 وجبة على مدار الشهر",
-          "تنويع متوازن بين البروتين والسلطات والأوعية",
-          "4 عصائر أو بودينج مشمولة",
-          "تفاصيل السعرات والعناصر الغذائية لكل وجبة",
-          "توصيل مجاني",
-          "تبديل أي وجبة حتى مساء اليوم السابق"
+          "يشمل وجبة غداء والتوصيل",
+          "قابل للتخصيص لزيادة الوزن أو نقصان الوزن",
+          "السعرات الحرارية والبروتين وباقي القيم الغذائية محسوبة"
         ]
       }
     },
     {
       "id": "sub-3",
-      "image": "https://loremflickr.com/800/800/healthy,meal,prep?lock=52",
-      "price": 135,
-      "period": "month",
+      "image": "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794230469/%D8%B5%D9%88%D8%B1%D8%A9_%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%D9%83_%D8%AB%D8%A7%D9%84%D8%AB%D8%A9.png",
+      "price": 100,
+      "period": "15days",
       "name": {
-        "en": "Fit Pro Plan",
-        "ar": "اشتراك فِت برو"
+        "en": "15-Day Breakfast Plan",
+        "ar": "اشتراك وجبة الفطور لمدة 15 يومًا"
       },
       "summary": {
-        "en": "High-protein meals built around your training.",
-        "ar": "وجبات عالية البروتين مصممة حول تمرينك."
+        "en": "A 15-day breakfast subscription with delivery included.",
+        "ar": "اشتراك وجبة فطور لمدة 15 يومًا شامل التوصيل."
       },
       "details": {
         "en": [
-          "26 high-protein meals per month",
-          "40g+ protein in every main meal",
-          "Daily snack: energy balls or protein granola cup",
-          "Monthly check-in to adjust portions",
-          "Free delivery"
+          "Breakfast meal and delivery included",
+          "Can be tailored for weight loss or weight gain",
+          "Calories, protein and other nutrition values are calculated"
         ],
         "ar": [
-          "26 وجبة عالية البروتين شهريًا",
-          "أكثر من 40 غرام بروتين في كل وجبة رئيسية",
-          "سناك يومي: كرات الطاقة أو كوب الجرانولا بالبروتين",
-          "متابعة شهرية لتعديل الكميات",
-          "توصيل مجاني"
+          "يشمل وجبة فطور والتوصيل",
+          "قابل للتخصيص لزيادة الوزن أو نقصان الوزن",
+          "السعرات الحرارية والبروتين وباقي القيم الغذائية محسوبة"
         ]
       }
     }

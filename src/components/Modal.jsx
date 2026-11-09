@@ -52,7 +52,7 @@ export default function Modal({ entry, onClose }) {
           <h2 className="pe-12 text-3xl font-extrabold leading-tight tracking-tight sm:text-4xl">{tx(item.name)}</h2>
           <div className="mt-4 flex items-center gap-3">
             <span className="rounded-full bg-ink px-4 py-1.5 text-lg font-bold text-paper">{money(item.price)}</span>
-            {isSub && <span className="text-sm text-muted">{t(item.period === 'week' ? 'perWeek' : 'perMonth')}</span>}
+            {isSub && <span className="text-sm text-muted">{t(item.period === 'week' ? 'perWeek' : item.period === '15days' ? 'per15Days' : 'perMonth')}</span>}
           </div>
           {isSub && <p className="mt-5 leading-relaxed text-muted">{tx(item.summary)}</p>}
 
