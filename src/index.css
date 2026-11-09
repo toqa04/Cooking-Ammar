@@ -43,13 +43,6 @@ html[lang="ar"] .tight { letter-spacing: -0.045em !important; }
 .fade { animation: fade .2s ease-out both; }
 .pop { animation: pop .3s cubic-bezier(.2,.7,.2,1) both; }
 
-.has-scroll-reveal .scroll-reveal {
-  opacity: 0;
-  transform: translateY(32px);
-  transition: opacity .7s cubic-bezier(.2,.7,.2,1), transform .7s cubic-bezier(.2,.7,.2,1);
-  transition-delay: var(--reveal-delay, 0s);
-}
-.has-scroll-reveal .scroll-reveal.is-visible { opacity: 1; transform: none; }
 .menu-card { box-shadow: 0 5px 18px -14px rgba(10,61,39,.32); transition: transform .35s ease, box-shadow .35s ease, border-color .35s ease; }
 .menu-card:hover { transform: translateY(-4px); border-color: rgba(19,121,74,.28); box-shadow: 0 20px 34px -24px rgba(10,61,39,.4); }
 .empty-chef__image { animation: chef-bob 2.8s ease-in-out infinite; }
@@ -69,7 +62,6 @@ html[lang="ar"] .tight { letter-spacing: -0.045em !important; }
   html { scroll-behavior: auto; }
   .rise, .fade, .pop { animation: none; }
   .category-marquee__track { animation: none; }
-  .has-scroll-reveal .scroll-reveal { opacity: 1; transform: none; transition: none; }
   .menu-card, .menu-card:hover { transform: none; transition: none; }
   .empty-chef__image { animation: none; }
   .hero-orbit, .hero-food__plate, .hero-food__float, .hero-spark { animation: none; }

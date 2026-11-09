@@ -5,7 +5,7 @@ import { CheckIcon } from './icons'
 export default function SubscriptionCard({ item, onOpen }) {
   const { t, tx, money } = useLang()
   return (
-    <article data-reveal className="scroll-reveal on-dark group relative flex flex-col rounded-[2rem] border border-leaf/30 bg-gradient-to-br from-[#0a3d27] via-[#0d5435] to-[#092d20] p-3 text-mint shadow-lg shadow-leaf-deep/10">
+    <article className="on-dark group relative flex flex-col rounded-[2rem] border border-leaf/30 bg-gradient-to-br from-[#0a3d27] via-[#0d5435] to-[#092d20] p-3 text-mint shadow-lg shadow-leaf-deep/10">
       <div className="aspect-[16/11] overflow-hidden rounded-[1.5rem] bg-surface">
         <SmartImg src={item.image} alt={tx(item.name)} className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" />
       </div>

@@ -48,12 +48,12 @@ export default function Menu({ cat, setCat, onOpen }) {
   return (
     <section id="menu" className="scroll-mt-16">
       <div className="mx-auto max-w-7xl px-4 pt-16 sm:px-6">
-        <span data-reveal className="scroll-reveal mb-3 inline-flex items-center gap-2 rounded-full bg-mint px-3 py-1 text-xs font-bold text-leaf-deep">
+        <span className="mb-3 inline-flex items-center gap-2 rounded-full bg-mint px-3 py-1 text-xs font-bold text-leaf-deep">
           <span className="h-1.5 w-1.5 rounded-full bg-leaf" aria-hidden="true" />
           {t('heroTile')}
         </span>
-        <h2 data-reveal className="scroll-reveal text-4xl font-extrabold tracking-tight text-leaf-deep sm:text-5xl">{t('menuTitle')}</h2>
-        <p data-reveal className="scroll-reveal mt-3 max-w-xl text-muted" style={{ '--reveal-delay': '.08s' }}>{t('menuSub')}</p>
+        <h2 className="text-4xl font-extrabold tracking-tight text-leaf-deep sm:text-5xl">{t('menuTitle')}</h2>
+        <p className="mt-3 max-w-xl text-muted">{t('menuSub')}</p>
       </div>
 
       <div className="sticky top-16 z-20 mt-8 border-y border-line/70 bg-paper/90 shadow-[0_8px_24px_-22px_rgba(14,21,18,.5)] backdrop-blur">
@@ -96,7 +96,7 @@ export default function Menu({ cat, setCat, onOpen }) {
       <div className="mx-auto max-w-7xl space-y-14 px-4 py-10 sm:px-6">
         {groups.map((g) => (
           <div key={g.id} className="menu-group">
-            <div data-reveal className="scroll-reveal mb-5 flex items-center gap-3">
+            <div className="mb-5 flex items-center gap-3">
               <span className="h-7 w-1 rounded-full bg-leaf" aria-hidden="true" />
               <h3 className="text-2xl font-extrabold">{g.title}</h3>
               <span className="rounded-full bg-surface px-3 py-1 text-xs font-semibold text-muted">{g.items.length} {t('items')}</span>

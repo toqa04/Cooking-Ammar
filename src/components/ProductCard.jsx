@@ -6,7 +6,7 @@ export default function ProductCard({ item, onOpen }) {
   const { t, tx, list, money } = useLang()
   const ingredients = tx(item.ingredients)
   return (
-    <article data-reveal className="scroll-reveal menu-card group relative rounded-[2rem] border border-line/70 bg-white p-2.5">
+    <article className="menu-card group relative rounded-[2rem] border border-line/70 bg-white p-2.5">
       <div className="relative aspect-[4/5] overflow-hidden rounded-[1.5rem] bg-surface">
         <SmartImg src={item.image} alt={tx(item.name)} className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" />
         <span className="absolute bottom-3 end-3 rounded-full border border-white/70 bg-white/95 px-4 py-2 text-sm font-extrabold text-leaf-deep shadow-md backdrop-blur">{money(item.price)}</span>

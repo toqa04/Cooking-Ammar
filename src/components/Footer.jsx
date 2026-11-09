@@ -9,7 +9,7 @@ export default function Footer() {
     config.instagram && { href: `https://instagram.com/${config.instagram}`, label: 'Instagram' },
   ].filter(Boolean)
   return (
-    <footer data-reveal className="scroll-reveal on-dark mt-10 overflow-hidden bg-ink text-paper">
+    <footer className="on-dark mt-10 overflow-hidden bg-ink text-paper">
       <div className="mx-auto grid max-w-7xl gap-10 px-4 pb-10 pt-16 sm:px-6 md:grid-cols-[1.6fr_1fr_1fr]">
         <div>
           <div lang="en" dir="ltr" className="tight text-4xl font-extrabold tracking-[-0.05em] sm:text-5xl">{data.brand.name}<span className="text-leaf">.</span></div>
