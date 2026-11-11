@@ -246,16 +246,6 @@
       "image": "https://res.cloudinary.com/di1xpud7d/image/upload/v1793996758/IMG-20261106-WA0024_dkxmgw.jpg"
     },
     {
-      "id": 15,
-      "category": "meals",
-      "name": {
-        "ar": "مكس",
-        "en": "Mix"
-      },
-      "price": 3,
-      "image": "https://res.cloudinary.com/di1xpud7d/image/upload/v1793996757/IMG-20261106-WA0013_yujk19.jpg"
-    },
-    {
       "id": 16,
       "category": "steaks",
       "name": {
@@ -439,8 +429,8 @@
       "id": 34,
       "category": "meals",
       "name": {
-        "ar": "مع اللحم",
-        "en": "Meat Dish / Beef Meal"
+        "ar": "ماش مع اللحم",
+        "en": "Mash with Meat"
       },
       "price": 4,
       "image": "https://res.cloudinary.com/bb5hvhnl/image/upload/v1794225806/WhatsApp_Image_2026-11-09_at_2.54.55_PM.jpg"
